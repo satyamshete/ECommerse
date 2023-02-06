@@ -1,0 +1,21 @@
+.CartItems-class{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.CartItems-class img{
+    height: 10rem;
+}
+.cart-count{
+    display: flex;
+    
+
+    
+}
+.cart-count button{
+    width: 3rem;
+    height: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}

@@ -1,0 +1,23 @@
+.template-title{
+    display: flex;
+    justify-content:space-evenly;
+}
+.templte:hover {
+    transform: scale(1.10);
+    z-index: 1;
+    transition: 0.25s ease-in-out
+}
+.hide{
+    display: none;
+}
+.templte:hover .hide {
+    border-radius: 0.5rem;
+    border:0.05rem solid var(--lightBlue);
+    display:block; 
+    background:var(--lightBlue);
+    color:var(--mainBlue)
+  }
+  .templte{
+    text-align: center;
+    width: 23vw;
+  }
